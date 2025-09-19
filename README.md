@@ -1,2 +1,2 @@
 # breakfast
-Java projects and spring boot projects
+Java projects and Spring Boot projects
