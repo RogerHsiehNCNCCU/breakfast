@@ -1,4 +1,4 @@
-package com.blessings.corp.blessing.breakfast.breakfastfirst.service;
+package com.blessings.corp.blessing.breakfast.breakfastshopfirst.service;
 
 import java.util.*;
 

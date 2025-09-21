@@ -1,4 +1,4 @@
-# 🍳 Breakfast Shop Management System
+# 🍳 Breakfast Shop First Management System
 Problem Statement:
 
 Design a simplified version of a breakfast shop management system. The system should be able to handle menu management, order placements, and track the available stock of breakfast items. Each item is identified by a unique ID and has a name, category, and price.
