@@ -5,47 +5,50 @@ Design a simplified version of a breakfast shop management system. The system sh
 
 Functional Requirements:
 
-Add Menu Item
+- Add Menu Item  
 Add new items to the breakfast shop menu, including specifying stock quantity.
 
-Input Format: ADD_ITEM itemId name category price stock
+  Input Format: ADD_ITEM itemId name category price stock
 
-If the item already exists (same itemId), increase the stock by the specified amount.
+  If the item already exists (same itemId), increase the stock by the specified amount.
 
-Order Item
+
+- Order Item  
 Allow a customer to order a menu item if it is available in stock.
 
-Input Format: ORDER_ITEM itemId
+  Input Format: ORDER_ITEM itemId
 
-If the item is available, decrease the stock by one and print:
+  If the item is available, decrease the stock by one and print:
 
-"Ordered [name]"
+  "Ordered [name]"
 
-If the item is out of stock, print:
+  If the item is out of stock, print:
 
-"Item not available"
+  "Item not available"
 
-Restock Item
+
+- Restock Item  
 Increase the stock of a specific item.
 
-Input Format: RESTOCK_ITEM itemId quantity
+  Input Format: RESTOCK_ITEM itemId quantity
 
-Print "Restocked [name]"
+  Print "Restocked [name]"
 
-List Available Items
+
+- List Available Items  
 Print a list of all menu items that have at least one available stock, sorted by item name.
 
-Command: LIST_AVAILABLE_ITEMS
+  Command: LIST_AVAILABLE_ITEMS
 
-Sample Input:
-ADD_ITEM 101 "Pancakes" "Main" 5.99 5
-ADD_ITEM 102 "Coffee" "Drink" 2.50 10
-ORDER_ITEM 101
-RESTOCK_ITEM 101 3
-LIST_AVAILABLE_ITEMS
+Sample Input:  
+ADD_ITEM 101 "Pancakes" "Main" 5.99 5  
+ADD_ITEM 102 "Coffee" "Drink" 2.50 10  
+ORDER_ITEM 101  
+RESTOCK_ITEM 101 3  
+LIST_AVAILABLE_ITEMS  
 
-Sample Output:
-Ordered Pancakes
-Restocked Pancakes
-Coffee - Drink - $2.5 - 10 available
-Pancakes - Main - $5.99 - 7 available
+Sample Output:  
+Ordered Pancakes  
+Restocked Pancakes  
+Coffee - Drink - $2.5 - 10 available  
+Pancakes - Main - $5.99 - 7 available  
